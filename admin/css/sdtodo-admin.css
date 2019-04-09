@@ -1,0 +1,59 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#new-todo {
+	margin-bottom: 12px;
+}
+
+#new-todo .prompt{
+	font-size: 1.1em;
+	padding: 5px 8px;
+	cursor: text;
+	color: #72777c;
+}
+
+.sdtodo_error {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: red;
+}
+
+.sdtd-items-list li {
+	display: flex;
+	align-items: center;
+}
+
+.sdtd-items-list li .sdtd-item-status {
+	display: block;
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	border-radius: 50%;
+	border: 2px solid #0085ba;
+	cursor: pointer;
+}
+
+.sdtd-items-list li .sdtd-item-status.complete {
+	display: none;
+	background: #0085ba;
+	text-align: center;
+	color: #FFF;
+}
+
+.sdtd-items-list li .sdtd-item-status.complete .dashicons {
+	font-size: 16px;
+	height: 16px;
+	width: 16px;
+	margin-left: -1px;
+}
+
+.sdtd-items-list li .sdtd-todo-body {
+	margin-right: auto;
+}
+
+.sdtd-item-delete {
+	cursor: pointer;
+}
